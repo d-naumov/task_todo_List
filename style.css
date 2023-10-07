@@ -1,0 +1,57 @@
+h1 {
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+p {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.todoHeading {
+  font-weight: 700;
+  color: blueviolet;
+}
+.todoForm {
+  border: 1px black solid;
+  border-radius: 1%;
+  display: flex;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 30px;
+  margin-top: 0;
+  background-color: #f6f6db;
+  flex-direction: column;
+  width: 500px;
+  position: relative;
+}
+
+.todoList {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.time {
+ color: red;   
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between; /* Распределение кнопок по краям контейнера */
+  align-items: center; /* Выравнивание кнопок по вертикали по центру */
+}
+
+.submitBtn {
+  width: 200px;
+  margin-bottom: 5px;
+}
+.buttonDel {
+  width: 200px;
+  margin-bottom: 5px;
+}
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}

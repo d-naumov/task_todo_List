@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="todoHeading">Todo list</h1>
+
+    <form class="todoForm" id="todoForm">
+      <input type="text" name="todo" placeholder="дело" required />
+      <input type="text" name="time" id="timeField" placeholder="время" required />
+      <div  class="buttonContainer">
+          <button type="submit" class="submitBtn">Добавить дело</button>
+          <button class="buttonDel" id="buttonDel">Удалить следующее</button>
+    </div>
+    </form>
+    <div class="todoList" id="todoList"></div>
+  </body>
+</html>
