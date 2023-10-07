@@ -31,7 +31,7 @@ todoForm.addEventListener("submit", (event) => {
   works.push(todo);
 
   const textItem = document.createElement("p");
-  textItem.innerText = `Надо сделать ${todo.todo} успеть до ${todo.time} часов`;
+  textItem.innerText = `Надо сделать: ${todo.todo} успеть до ${todo.time} часов`;
   todoList.append(textItem);
   todoList.classList.add("todo");
   clearInputs(event);
